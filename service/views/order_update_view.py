@@ -1,9 +1,10 @@
-from rest_framework.views import APIView
-from rest_framework.response import Response
 from rest_framework import status
-from service.serializers import OrderUpdateSerializer
-from service.models import Customer, Product, Order, OrderItem
+from rest_framework.response import Response
+from rest_framework.views import APIView
+
 from service.constants import ResponseMessages
+from service.models import Customer, Order, OrderItem, Product
+from service.serializers import OrderUpdateSerializer
 
 
 class OrderUpdateView(APIView):

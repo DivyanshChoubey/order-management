@@ -1,4 +1,5 @@
 from django.db import models
+
 from service.models.order import Order
 from service.models.product import Product
 

@@ -1,7 +1,9 @@
 from rest_framework import serializers
+
 from service.models import Order
 from service.serializers.customer_get_serializer import CustomerGetSerializer
-from service.serializers.order_item_get_serializer import OrderItemGetSerializer
+from service.serializers.order_item_get_serializer import \
+    OrderItemGetSerializer
 
 
 class OrderGetSerializer(serializers.ModelSerializer):

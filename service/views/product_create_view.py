@@ -1,9 +1,10 @@
-from rest_framework.views import APIView
-from rest_framework.response import Response
 from rest_framework import status
-from service.serializers import ProductCreateSerializer
-from service.models import Product
+from rest_framework.response import Response
+from rest_framework.views import APIView
+
 from service.constants import ResponseMessages
+from service.models import Product
+from service.serializers import ProductCreateSerializer
 
 
 class ProductCreateView(APIView):
