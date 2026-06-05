@@ -1,0 +1,13 @@
+class ResponseMessages:
+    INVALID_DATA = "Invalid data provided."
+    CUSTOMER_CREATED = "Customer created successfully."
+    CUSTOMER_UPDATED = "Customer updated successfully."
+    CUSTOMER_NOT_FOUND = "Customer not found."
+    PRODUCT_CREATED = "Product created successfully."
+    PRODUCT_UPDATED = "Product updated successfully."
+    PRODUCT_NOT_FOUND = "Product not found."
+    ORDER_CREATED = "Order created successfully."
+    ORDER_FETCHED = "Orders fetched successfully."
+    ORDER_UPDATED = "Order updated successfully."
+    ORDER_NOT_FOUND = "Order not found."
+    ORDER_ITEM_NOT_FOUND = "Order item not found."
